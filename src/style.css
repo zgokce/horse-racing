@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+:root {
+  font-family: "Geist", sans-serif;
+  font-weight: 400;
+
+  --text-sm: 12px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+  --text-xxl: 24px;
+
+  --color-purple: #9875b5;
+  --color-yellow: #f8e49d;
+  --color-green: #bcdabe;
+  --color-dark-green: #3ea995;
+  --color-blue: #2c98c9;
+  --color-gray: #d4d6d3;
+  --color-dark-gray: #bbbbbb;
+  --color-red: #df574b;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--color-gray);
+  color: var(--color-black);
+  font-family: "Geist", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark-gray);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-dark-gray);
+}
