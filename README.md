@@ -60,12 +60,6 @@ npx cypress open
 - node.js >= v20.19.0
 
 
-```bash
-git clone git@github.com:zgokce/horse-racing.git
-cd horse-racing-game
-npm install
-```
-
 ### Development
 ```
 npm run dev
