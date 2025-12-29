@@ -1,6 +1,5 @@
 import { ROUNDS } from '@/constants/race.js'
-
-const shuffle = (array) => [...array].sort(() => Math.random() - 0.5)
+import { shuffle } from '@/utils/index.js'
 
 export default {
   namespaced: true,

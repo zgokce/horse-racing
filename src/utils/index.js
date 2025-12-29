@@ -1,7 +1,5 @@
 import { CONDITION_RANGE } from '../constants/horses.js'
 
-export const randomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-
 export const shuffle = (array) => {
   return [...array].sort(() => Math.random() - 0.5)
 }
