@@ -1,5 +1,78 @@
-# Vue 3 + Vite
+# 🐎 Horse Racing Game
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a horse racing simulation built with Vue.js and Vuex.
+Users can view the list of horses, create a race schedule, and watch the race results with animated visuals.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 📁 Project Structure
+
+```
+cypress/
+└─ e2e/
+src/
+├─ __tests__/
+├─ components/
+│  ├─ common/
+│  ├─ icons/
+│  ├─ layout/
+│  ├─ race/
+│  ├─ ui/
+├─ constants/
+├─ pages/
+├─ router/
+├─ store/
+└─ utils/
+
+```
+
+---
+
+## 🛠 Tech Stack
+
+- Vue 3
+- Vuex 4
+- Vite
+- Composition API
+- Vitest (Unit test)
+- Cypress (E2E test)
+- ESlint 9 + Prettier
+
+---
+
+## 🧪 Testing
+
+```
+# Vitest
+
+npm run test:unit
+
+# Cypress
+
+npx cypress open
+
+```
+
+## 🚀 Setup
+
+### ⚙️ Node & NPM Requirements
+
+- node.js >= v20.19.0
+
+
+```bash
+git clone git@github.com:zgokce/horse-racing.git
+cd horse-racing-game
+npm install
+```
+
+### Development
+```
+npm run dev
+```
+
+### Build
+```
+npm run build
+```
+
